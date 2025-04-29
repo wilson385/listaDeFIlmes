@@ -1,0 +1,1 @@
+Criei uma aplicação interativa para montar uma lista de filmes favorita, usando JavaScript, for, if/else, botões e elementos HTML como listas (ul/li). O usuário digita o nome do filme e, ao clicar no botão, o item é adicionado automaticamente à lista na tela. Este projeto me permitiu praticar e consolidar habilidades com eventos DOM, validação de dados e interação com o usuário.
