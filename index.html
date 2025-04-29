@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Filmes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="overlay">
+    <div class="container">
+      <h1>🎬 Minha Lista de Filmes</h1>
+      <p>Adicione seus filmes favoritos (sem medo 😱)!</p>
+      <input type="text" id="inputFilme" placeholder="Digite o nome do filme">
+      <button onclick="adicionarFilme()" class="adicionarFilme">Adicionar Filme</button>
+      <button onclick="limparLista()">Limpar Tudo</button>
+      <p id="mensagem"></p>
+      <ul id="listaFilmes"></ul>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
